@@ -62,7 +62,6 @@ Creating the .msi file.
 5. Verify it installed by checking **Program and Features** on your computer.
 
 
-**Free Software, Hell Yeah!**
 [Visual Studio Professional 2013]:http://www.visualstudio.com/downloads/download-visual-studio-vs
 [WiX Toolset]:http://wixtoolset.org/
 [Windows PowerShell]:http://technet.microsoft.com/en-us/scriptcenter/powershell.aspx
