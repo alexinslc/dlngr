@@ -29,7 +29,9 @@ Make it yours!
 2. We need to define the `Manufacturer=""`!
 3. Put **your name** or **company name** in the quotes. ex: `Manufacturer="Aperture Labs"`
 4. We can also change **line 6** `[ProductName]` to something like **SimpleApp**.
-5. Save the file. 
+5. Let's **remove** the `<MediaTemplate />` line and replace it with the following: `<Media Id="33" Cabinet="product.cab" EmbedCab="yes" />`
+6. Replace this `<Component />` section with `<Component Id="ApplicationFiles" Guid="12345678-1234-1234-1234-222222222222" />` 
+7. Save the file. 
 
 Create the object file.
 --------------
