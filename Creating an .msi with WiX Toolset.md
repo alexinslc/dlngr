@@ -59,34 +59,7 @@ Creating the .msi file.
 2. Verify your .msi file was created by using `dir` again.
 3. Viola! You've done it! 
 4. Try installing the msi by navigating to the location in Windows Explorer and **double-clicking** the **Product.msi**.
-5. 
-
-
-Installation
---------------
-
-```sh
-git clone [git-repo-url] dillinger
-cd dillinger
-npm i -d
-mkdir -p public/files/{md,html,pdf}
-```
-
-##### Configure Plugins. Instructions in following README.md files
-
-* plugins/dropbox/README.md
-* plugins/github/README.md
-* plugins/googledrive/README.md
-
-```sh
-node app
-```
-
-
-License
-----
-
-MIT
+5. Verify it installed by checking **Program and Features** on your computer.
 
 
 **Free Software, Hell Yeah!**
